@@ -11,11 +11,11 @@ let someWords = [
 	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ];
 
-let boxAmount = 8;
+let loggerAmount = 8;
 
-let multiTermLogger = new MultiTermLogger(boxAmount);
+let multiTermLogger = new MultiTermLogger(loggerAmount);
 
-for (let i = 0; i < boxAmount; i++) {
+for (let i = 0; i < loggerAmount; i++) {
 	setInterval(function(){
 		let randomString = someWords[Math.floor(Math.random() * someWords.length)];
 
