@@ -1,1 +1,1 @@
-# terminal-boxes
+# multi-terminal-logger
