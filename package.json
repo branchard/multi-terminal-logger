@@ -1,0 +1,22 @@
+{
+  "name": "terminal-boxes",
+  "version": "0.0.0",
+  "description": "No description yet",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branchard/terminal-boxes.git"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "branchard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/branchard/terminal-boxes/issues"
+  },
+  "homepage": "https://github.com/branchard/terminal-boxes#readme"
+}
