@@ -1,4 +1,4 @@
-const TermBoxes = require("../lib");
+const MultiTermLogger = require("../lib");
 
 let someWords = [
 	"Bonjour, comment allez-vous ?",
@@ -13,13 +13,13 @@ let someWords = [
 
 let boxAmount = 8;
 
-let termBoxes = new TermBoxes(boxAmount);
+let multiTermLogger = new MultiTermLogger(boxAmount);
 
 for (let i = 0; i < boxAmount; i++) {
 	setInterval(function(){
 		let randomString = someWords[Math.floor(Math.random() * someWords.length)];
 
-		termBoxes.log(randomString, i)
+		multiTermLogger.log(randomString, i)
 
 	}, Math.floor(Math.random() * 2000) + 500);
 }
