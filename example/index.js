@@ -1,15 +1,13 @@
 const TermBoxes = require("../lib");
 
 let someWords = [
-	"Bonjour",
-	"Hello",
-	"Hola",
-	"Hallo",
-	"Olá",
-	"Alo",
-	"Ahoj",
-	"Ciao",
-	"Hej",
+	"Bonjour, comment allez-vous ?",
+	"Hello how are you ?",
+	"Buenos días, Cómo está ?",
+	"Hallo, wie geht es dir?",
+	"Olá, como você está?",
+	"Buongiorno come stai ?",
+	"Ahoj jak se máte?",
 	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ];
 
