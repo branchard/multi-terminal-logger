@@ -13,7 +13,11 @@
   "keywords": [
 	"multi",
     "terminal",
-	"logger"
+	"logger",
+	"multiplexing",
+	"simple",
+	"boxes",
+	"progressbar"
   ],
   "author": "branchard",
   "license": "GPL-3.0",
