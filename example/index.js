@@ -13,7 +13,7 @@ let someWords = [
 
 let loggerAmount = 8;
 
-let multiTermLogger = new MultiTermLogger(loggerAmount);
+let multiTermLogger = new MultiTermLogger({amount: loggerAmount});
 
 for (let i = 0; i < loggerAmount; i++) {
 	setInterval(function(){
