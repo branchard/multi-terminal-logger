@@ -12,14 +12,16 @@ let someWords = [
 ];
 
 let loggerAmount = 8;
+let progressbar = true;
+let maxLog = 100;
 
-let multiTermLogger = new MultiTermLogger({amount: loggerAmount});
+let multiTermLogger = new MultiTermLogger({amount: loggerAmount, progressbar});
 
 for (let i = 0; i < loggerAmount; i++) {
 	setInterval(function(){
 		let randomString = someWords[Math.floor(Math.random() * someWords.length)];
 
-		multiTermLogger.log(randomString, i)
+		multiTermLogger.log(randomString, i);
 
 	}, Math.floor(Math.random() * 2000) + 500);
 }
