@@ -22,6 +22,7 @@ for (let i = 0; i < loggerAmount; i++) {
 		let randomString = someWords[Math.floor(Math.random() * someWords.length)];
 
 		multiTermLogger.log(randomString, i);
+		multiTermLogger.log(this, i);
 
 	}, Math.floor(Math.random() * 2000) + 500);
 }
